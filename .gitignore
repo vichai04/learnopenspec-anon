@@ -1,0 +1,20 @@
+# Dependencies and build output
+node_modules/
+demo/.web/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Reflex runtime state
+demo/.states/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local database (contains claims data; not committed by default)
+claims_hub.sqlite
